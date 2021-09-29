@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 50px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Prompt;
+  background-color: black;
+}
+
+#app {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+
+#main-dis {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px; 
+}
+
+#break-btn, #session-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px;
+}
+
+#session-length, #break-length {
+  margin: 10px;
+}
+
+#mng {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0px 0px 0px;
+}
+
+#start_stop, #reset {
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  margin: 5px;
+  width: 120px;
+}
+
+img {
+  height: 20px;
+}
+
+button {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  color: white;
+  background-color: black;
+  border-style: none;
+  font-family: Hammersmith One;
+  font-size: 30px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+  cursor: pointer
+}
+
+#se-sec, #brk-sec {
+  text-align: center;
+}

@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, lightgreen, #ff8235);
+}
+
+#quote-box {
+  font-family: Lora, Times New Roman;
+  color: black;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#text-sec {
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#text {
+  font-size: 17px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+#author {
+  align-self: flex-end;
+  margin-right: 5vw;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: Karla, Tomes New Roman;
+  margin-top: 40px;
+  font-size: 35px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  width: 90%;
+}
+
+span {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+#mega-box {
+  background-color: white;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 0px;
+  border-radius: 0px;
+}
+
+#new-quote {
+  text-decoration: none;
+  border-style: none;
+  border-radius: 0px;
+  padding: 0px 10px;
+  font-family: Manrope;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 3px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#new-quote:hover {
+  color: black;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 3px;
+  transition-delay: 0.05s;
+  transition-duration: 0.2s;
+}
+
+#new-quote:focus {
+  outline: none;
+}
+
+#tweet-quote {
+  height: 40px;
+  width: 40px;
+  background-image: url("https://i.imgur.com/nX0442H.png");
+  background-size: 40px;
+  transition: 0.2s;
+  border-bottom-style: solid;
+  border-bottom-color: #54acf4;
+  border-bottom-width: 3px;
+}
+
+#tweet-quote:hover {
+  background-image: url("https://i.imgur.com/CNwaZbN.png");
+  transition-delay: 0.05s;
+  transition-duration: 0.2s;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 3px;
+}
+
+@media (max-width: 705px) {
+  h1 {
+    font-size: 5.7vw;
+  }
+
+  #text {
+    margin-top: 10px;
+    min-height: 50px;
+  }
+
+  #author {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 420px) {
+  #new-quote {
+    font-size: 5vw;
+  }
+}
+@media (min-width: 705px) {
+  #text-sec {
+    height: 150px;
+  }
+
+  #mega-box {
+    height: 70%;
+  }
+}

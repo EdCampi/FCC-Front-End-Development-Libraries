@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+/*app here*/
+
+#app {
+  background: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#drum-machine {
+  width: 270px;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+#display {
+  font-size: 30px;
+  background-color: #e8e8e8;
+  color: black;
+  padding: 5px 0px;
+  text-align: center;
+  width: 230px;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+#vol-display {
+  background-color: #e8e8e8;
+  padding: 2px 10px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+#volume {
+  width: 225px;
+}
+
+button {
+  width: 70px;
+  height: 50px;
+}
+
+.drum-pad {
+  margin: 3px;
+}
+
+#stRow {
+  margin-top: 15px;
+  display: flex;
+}
+
+#ndRow {
+  display: flex;
+}
+
+#rdRow {
+  margin-bottom: 15px;
+  display: flex;
+}
